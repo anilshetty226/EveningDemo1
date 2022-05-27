@@ -1,0 +1,307 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 08 16:22:02 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (115 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testng.Dependancy.test()'><b>test</b><br>Test class: testng.Dependancy<br/>
+<a href="#Output-212683148" onClick='toggleBox("Output-212683148", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-212683148" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-212683148">
+Signup<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Dependancy@44c03695</td></tr>
+<tr>
+<td title='testng.Trial.test()'><b>test</b><br>Test class: testng.Trial<br/>
+<a href="#Output-302977067" onClick='toggleBox("Output-302977067", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-302977067" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-302977067">
+1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Trial@22ff4249</td></tr>
+<tr>
+<td title='testng.Trial1.test1()'><b>test1</b><br>Test class: testng.Trial1<br/>
+<a href="#Output-1234250905" onClick='toggleBox("Output-1234250905", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1234250905" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1234250905">
+Chat<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Trial1@1f2586d6</td></tr>
+<tr>
+<td title='testng.Tial3.sample()'><b>sample</b><br>Test class: testng.Tial3<br/>
+<a href="#Output-1720339" onClick='toggleBox("Output-1720339", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1720339" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1720339">
+Login<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Tial3@2f4948e4</td></tr>
+<tr>
+<td title='testng.Tial2.test()'><b>test</b><br>Test class: testng.Tial2<br/>
+<a href="#Output-671046933" onClick='toggleBox("Output-671046933", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-671046933" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-671046933">
+Signup<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Tial2@6a78afa0</td></tr>
+<tr>
+<td title='testng.Tial2.test()'><b>test</b><br>Test class: testng.Tial2<br/>
+<a href="#Output-1309238149" onClick='toggleBox("Output-1309238149", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1309238149" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1309238149">
+Signup<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Tial2@6a78afa0</td></tr>
+<tr>
+<td title='testng.Dependancy.sample()'><b>sample</b><br>Test class: testng.Dependancy<br/>
+<a href="#Output-11939193" onClick='toggleBox("Output-11939193", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11939193" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11939193">
+Login<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Dependancy@44c03695</td></tr>
+<tr>
+<td title='testng.Trial.test1()'><b>test1</b><br>Test class: testng.Trial<br/>
+<a href="#Output-6444850" onClick='toggleBox("Output-6444850", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6444850" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6444850">
+2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Trial@22ff4249</td></tr>
+<tr>
+<td title='testng.Tial3.test()'><b>test</b><br>Test class: testng.Tial3<br/>
+<a href="#Output-460201727" onClick='toggleBox("Output-460201727", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-460201727" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-460201727">
+Signup<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Tial3@2f4948e4</td></tr>
+<tr>
+<td title='testng.Trial.sample()'><b>sample</b><br>Test class: testng.Trial<br/>
+<a href="#Output-204684384" onClick='toggleBox("Output-204684384", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-204684384" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-204684384">
+3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Trial@22ff4249</td></tr>
+<tr>
+<td title='testng.Tial2.test1()'><b>test1</b><br>Test class: testng.Tial2<br/>
+<a href="#Output-170144208" onClick='toggleBox("Output-170144208", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-170144208" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-170144208">
+Chat<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Tial2@6a78afa0</td></tr>
+<tr>
+<td title='testng.Tial2.test()'><b>test</b><br>Test class: testng.Tial2<br/>
+<a href="#Output-1687940142" onClick='toggleBox("Output-1687940142", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1687940142" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1687940142">
+Signup<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Tial2@6a78afa0</td></tr>
+<tr>
+<td title='testng.Tial2.test()'><b>test</b><br>Test class: testng.Tial2<br/>
+<a href="#Output-1765795529" onClick='toggleBox("Output-1765795529", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1765795529" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1765795529">
+Signup<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Tial2@6a78afa0</td></tr>
+<tr>
+<td title='testng.Tial2.test()'><b>test</b><br>Test class: testng.Tial2<br/>
+<a href="#Output-370370379" onClick='toggleBox("Output-370370379", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-370370379" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-370370379">
+Signup<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Tial2@6a78afa0</td></tr>
+<tr>
+<td title='testng.Trial1.test()'><b>test</b><br>Test class: testng.Trial1<br/>
+<a href="#Output-1881901842" onClick='toggleBox("Output-1881901842", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1881901842" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1881901842">
+Signup<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Trial1@1f2586d6</td></tr>
+<tr>
+<td title='testng.Dependancy.test1()'><b>test1</b><br>Test class: testng.Dependancy<br/>
+<a href="#Output-1714550218" onClick='toggleBox("Output-1714550218", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1714550218" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1714550218">
+Chat<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Dependancy@44c03695</td></tr>
+<tr>
+<td title='testng.Tial2.sample()'><b>sample</b><br>Test class: testng.Tial2<br/>
+<a href="#Output-888473870" onClick='toggleBox("Output-888473870", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-888473870" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-888473870">
+Login<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Tial2@6a78afa0</td></tr>
+<tr>
+<td title='testng.Tial2.sample()'><b>sample</b><br>Test class: testng.Tial2<br/>
+<a href="#Output-837108062" onClick='toggleBox("Output-837108062", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-837108062" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-837108062">
+Login<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Tial2@6a78afa0</td></tr>
+<tr>
+<td title='testng.Trial1.sample()'><b>sample</b><br>Test class: testng.Trial1<br/>
+<a href="#Output-585324508" onClick='toggleBox("Output-585324508", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-585324508" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-585324508">
+Login<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Trial1@1f2586d6</td></tr>
+</table><p>
+</body>
+</html>
